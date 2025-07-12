@@ -39,6 +39,9 @@ The current demo uses static content, but it can be easily integrate with Supaba
 ## Clarifications:
 ### Technical Questions:
 - Content management
+- Authentication
+- Payments
+- Forms
 
 ### Business Questions:
 - Existing branding guidelines (colors, fonts, logo)?
