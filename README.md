@@ -36,5 +36,23 @@ The current demo uses static content, but it can be easily integrate with Supaba
 - Supabase integration adds 1-2 weeks time.
 - About 500-600$
 
-### NOTE
+## Clarifications:
+### Technical Questions:
+- Content management
+
+### Business Questions:
+- Existing branding guidelines (colors, fonts, logo)?
+- Integration needs with existing systems (CRM, email marketing)?
+- Legal compliance requirements (GDPR, financial regulations)?
+
+### Content Questions:
+- Will content be provided?
+- Photo/image requirements
+- How many resources? Kind of resources?
+
+### Timeline Questions:
+- Hard deadline or flexible?
+- Post-launch maintenance/updates needed?
+
+## NOTE
 Each project is unique. Estimated time and/or cost might change due to project's requirements, unexpected issues, client's feedback cycles and testing phases.
