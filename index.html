@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Investment Club - Professional Stock Market Returns</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'atkinson': ['Atkinson Hyperlegible', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-atkinson bg-base-100">
+    <!-- Navigation -->
+    <nav class="navbar bg-base-100 shadow-lg sticky top-0 z-50">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+                    </svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#join">Join the Club</a></li>
+                    <li><a href="#resources">Investment Resources</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-xl font-bold text-primary">
+                <i class="fas fa-chart-line"></i>
+                Elite Investment Club
+            </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="#about" class="hover:text-primary">About Us</a></li>
+                <li><a href="#join" class="hover:text-primary">Join the Club</a></li>
+                <li><a href="#resources" class="hover:text-primary">Investment Resources</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a href="#join" class="btn btn-primary">
+                <i class="fas fa-user-plus"></i>
+                Join Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero min-h-screen bg-gradient-to-br from-primary/10 to-secondary/10">
+        <div class="hero-content text-center">
+            <div class="max-w-4xl">
+                <h1 class="text-5xl md:text-6xl font-bold text-base-content mb-6">
+                    Generate Positive Returns in the 
+                    <span class="text-primary">Stock Market</span>
+                </h1>
+                <p class="text-xl text-base-content/80 mb-8 max-w-3xl mx-auto">
+                    Join our exclusive investment club and learn professional strategies to build wealth through strategic stock market investments. Our proven approach has helped members achieve consistent returns.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#join" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i>
+                        Start Your Journey
+                    </a>
+                    <a href="#about" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play"></i>
+                        Learn More
+                    </a>
+                </div>
+                <div class="stats stats-vertical lg:stats-horizontal shadow-2xl mt-12 bg-base-100">
+                    <div class="stat">
+                        <div class="stat-figure text-primary">
+                            <i class="fas fa-users text-2xl"></i>
+                        </div>
+                        <div class="stat-title">Active Members</div>
+                        <div class="stat-value text-primary">2,847</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-figure text-secondary">
+                            <i class="fas fa-chart-line text-2xl"></i>
+                        </div>
+                        <div class="stat-title">Average Return</div>
+                        <div class="stat-value text-secondary">12.4%</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-figure text-accent">
+                            <i class="fas fa-calendar text-2xl"></i>
+                        </div>
+                        <div class="stat-title">Years Experience</div>
+                        <div class="stat-value text-accent">15+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-base-200">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-base-content mb-4">About Elite Investment Club</h2>
+                <p class="text-lg text-base-content/70 max-w-2xl mx-auto">
+                    We're a community of serious investors dedicated to generating consistent, positive returns through strategic stock market investments.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-base-content mb-6">Our Mission</h3>
+                    <p class="text-base-content/80 mb-6">
+                        Since 2008, we've been helping investors navigate the complexities of the stock market with proven strategies and expert guidance. Our club combines rigorous research, disciplined investing, and continuous education to help members achieve their financial goals.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="badge badge-primary badge-lg">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-base-content">Proven Track Record</h4>
+                                <p class="text-base-content/70">15+ years of consistent market outperformance</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="badge badge-primary badge-lg">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-base-content">Expert Guidance</h4>
+                                <p class="text-base-content/70">Led by certified financial professionals</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="badge badge-primary badge-lg">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-base-content">Community Focus</h4>
+                                <p class="text-base-content/70">Collaborative learning environment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="card bg-base-100 shadow-xl">
+                        <div class="card-body text-center">
+                            <i class="fas fa-graduation-cap text-3xl text-primary mb-2"></i>
+                            <h3 class="card-title text-lg justify-center">Education</h3>
+                            <p class="text-sm">Weekly workshops and market analysis</p>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <div class="card-body text-center">
+                            <i class="fas fa-shield-alt text-3xl text-secondary mb-2"></i>
+                            <h3 class="card-title text-lg justify-center">Risk Management</h3>
+                            <p class="text-sm">Sophisticated portfolio protection strategies</p>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <div class="card-body text-center">
+                            <i class="fas fa-handshake text-3xl text-accent mb-2"></i>
+                            <h3 class="card-title text-lg justify-center">Networking</h3>
+                            <p class="text-sm">Connect with like-minded investors</p>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <div class="card-body text-center">
+                            <i class="fas fa-trophy text-3xl text-warning mb-2"></i>
+                            <h3 class="card-title text-lg justify-center">Results</h3>
+                            <p class="text-sm">Track record of beating market indices</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join the Club Section -->
+    <section id="join" class="py-20 bg-base-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-base-content mb-4">Join the Elite Investment Club</h2>
+                <p class="text-lg text-base-content/70 max-w-2xl mx-auto">
+                    Take the first step towards financial freedom. Choose the membership that fits your investment goals.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Basic Plan -->
+                <div class="card bg-base-200 shadow-xl">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h3 class="card-title text-2xl justify-center mb-2">Basic</h3>
+                            <div class="text-4xl font-bold text-primary mb-4">€49<span class="text-lg font-normal">/month</span></div>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-primary"></i>
+                                <span>Monthly market insights</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-primary"></i>
+                                <span>Access to investment guides</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-primary"></i>
+                                <span>Community forum access</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-primary"></i>
+                                <span>Basic portfolio tracking</span>
+                            </li>
+                        </ul>
+                        <div class="card-actions justify-center mt-6">
+                            <button class="btn btn-outline btn-primary w-full">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="card bg-primary text-primary-content shadow-xl border-2 border-primary">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <div class="badge badge-secondary mb-2">Most Popular</div>
+                            <h3 class="card-title text-2xl justify-center mb-2">Premium</h3>
+                            <div class="text-4xl font-bold mb-4">€149<span class="text-lg font-normal">/month</span></div>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check"></i>
+                                <span>Everything in Basic</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check"></i>
+                                <span>Weekly live trading sessions</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check"></i>
+                                <span>Personal portfolio review</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check"></i>
+                                <span>Advanced market analysis</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check"></i>
+                                <span>Direct expert consultation</span>
+                            </li>
+                        </ul>
+                        <div class="card-actions justify-center mt-6">
+                            <button class="btn btn-secondary w-full">Join Premium</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIP Plan -->
+                <div class="card bg-base-200 shadow-xl">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h3 class="card-title text-2xl justify-center mb-2">VIP</h3>
+                            <div class="text-4xl font-bold text-accent mb-4">€349<span class="text-lg font-normal">/month</span></div>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-accent"></i>
+                                <span>Everything in Premium</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-accent"></i>
+                                <span>1-on-1 strategy sessions</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-accent"></i>
+                                <span>Exclusive investment opportunities</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-accent"></i>
+                                <span>Priority customer support</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check text-accent"></i>
+                                <span>Annual wealth planning review</span>
+                            </li>
+                        </ul>
+                        <div class="card-actions justify-center mt-6">
+                            <button class="btn btn-accent w-full">Go VIP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-base-content/70 mb-4">Ready to start your investment journey?</p>
+                <button class="btn btn-primary btn-lg">
+                    <i class="fas fa-calendar-alt"></i>
+                    Schedule a Free Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Resources Section -->
+    <section id="resources" class="py-20 bg-base-200">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-base-content mb-4">Investment Resources</h2>
+                <p class="text-lg text-base-content/70 max-w-2xl mx-auto">
+                    Access our comprehensive library of investment tools, guides, and market analysis to enhance your trading knowledge.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Market Analysis -->
+                <div class="card bg-base-100 shadow-xl">
+                    <div class="card-body">
+                        <div class="flex items-center gap-3 mb-4">
+                            <i class="fas fa-chart-bar text-2xl text-primary"></i>
+                            <h3 class="card-title text-xl">Market Analysis</h3>
+                        </div>
+                        <p class="text-base-content/70 mb-4">
+                            Daily and weekly market insights from our expert analysts covering major indices, sectors, and individual stocks.
+                        </p>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">S&P 500 Weekly Report</span>
+                                <i class="fas fa-download text-primary cursor-pointer"></i>
+                            </div>
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">Tech Sector Analysis</span>
+                                <i class="fas fa-download text-primary cursor-pointer"></i>
+                            </div>
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">Earnings Calendar</span>
+                                <i class="fas fa-download text-primary cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Educational Guides -->
+                <div class="card bg-base-100 shadow-xl">
+                    <div class="card-body">
+                        <div class="flex items-center gap-3 mb-4">
+                            <i class="fas fa-book text-2xl text-secondary"></i>
+                            <h3 class="card-title text-xl">Educational Guides</h3>
+                        </div>
+                        <p class="text-base-content/70 mb-4">
+                            Comprehensive guides covering everything from basic investing principles to advanced trading strategies.
+                        </p>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">Beginner's Guide to Stocks</span>
+                                <i class="fas fa-eye text-secondary cursor-pointer"></i>
+                            </div>
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">Options Trading Mastery</span>
+                                <i class="fas fa-eye text-secondary cursor-pointer"></i>
+                            </div>
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">Risk Management 101</span>
+                                <i class="fas fa-eye text-secondary cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trading Tools -->
+                <div class="card bg-base-100 shadow-xl">
+                    <div class="card-body">
+                        <div class="flex items-center gap-3 mb-4">
+                            <i class="fas fa-tools text-2xl text-accent"></i>
+                            <h3 class="card-title text-xl">Trading Tools</h3>
+                        </div>
+                        <p class="text-base-content/70 mb-4">
+                            Professional-grade tools and calculators to help you make informed investment decisions.
+                        </p>
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">Portfolio Calculator</span>
+                                <i class="fas fa-external-link-alt text-accent cursor-pointer"></i>
+                            </div>
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">Risk Assessment Tool</span>
+                                <i class="fas fa-external-link-alt text-accent cursor-pointer"></i>
+                            </div>
+                            <div class="flex justify-between items-center p-2 bg-base-200 rounded">
+                                <span class="text-sm font-medium">Dividend Tracker</span>
+                                <i class="fas fa-external-link-alt text-accent cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Resources -->
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold text-center mb-8">Featured Resources</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="card bg-gradient-to-br from-primary/10 to-secondary/10 shadow-xl">
+                        <div class="card-body">
+                            <div class="flex items-center gap-3 mb-4">
+                                <i class="fas fa-video text-2xl text-primary"></i>
+                                <h4 class="card-title">Live Trading Sessions</h4>
+                            </div>
+                            <p class="text-base-content/70">
+                                Watch our experts trade live and learn real-time decision-making strategies. Sessions recorded for Premium members.
+                            </p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-sm">Watch Latest Session</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-gradient-to-br from-secondary/10 to-accent/10 shadow-xl">
+                        <div class="card-body">
+                            <div class="flex items-center gap-3 mb-4">
+                                <i class="fas fa-newspaper text-2xl text-secondary"></i>
+                                <h4 class="card-title">Market Newsletter</h4>
+                            </div>
+                            <p class="text-base-content/70">
+                                Weekly newsletter with market updates, stock picks, and investment insights delivered to your inbox.
+                            </p>
+                            <div class="card-actions">
+                                <button class="btn btn-secondary btn-sm">Subscribe Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer footer-center bg-base-300 text-base-content p-10">
+        <div class="grid grid-flow-col gap-4">
+            <a class="link link-hover" href="#about">About Us</a>
+            <a class="link link-hover" href="#join">Join the Club</a>
+            <a class="link link-hover" href="#resources">Resources</a>
+            <a class="link link-hover">Contact</a>
+        </div>
+        <div>
+            <div class="grid grid-flow-col gap-4">
+                <a href="#" class="text-2xl hover:text-primary">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="text-2xl hover:text-primary">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="text-2xl hover:text-primary">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <p class="font-bold">Elite Investment Club</p>
+            <p>Generating positive returns since 2008</p>
+            <p class="text-sm opacity-70">© 2024 Elite Investment Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add some interactivity to the resource cards
+        document.querySelectorAll('.card-body i.fa-download, .card-body i.fa-eye, .card-body i.fa-external-link-alt').forEach(icon => {
+            icon.addEventListener('click', function() {
+                // Simulate resource access
+                const toast = document.createElement('div');
+                toast.className = 'toast toast-top toast-end';
+                toast.innerHTML = `
+                    <div class="alert alert-success">
+                        <i class="fas fa-check"></i>
+                        <span>Resource accessed successfully!</span>
+                    </div>
+                `;
+                document.body.appendChild(toast);
+                setTimeout(() => {
+                    toast.remove();
+                }, 3000);
+            });
+        });
+    </script>
+</body>
+</html>
