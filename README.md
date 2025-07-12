@@ -30,3 +30,11 @@ The current demo uses static content, but it can be easily integrate with Supaba
 - Dynamic resource management
 - Member registration
 - Content delivery
+
+## Timeline & Budget
+- Approximately 1 month to be ready.
+- Supabase integration adds 1-2 weeks time.
+- About 500-600$
+
+### NOTE
+Each project is unique. Estimated time and/or cost might change due to project's requirements, unexpected issues, client's feedback cycles and testing phases.
